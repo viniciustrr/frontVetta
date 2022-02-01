@@ -1,0 +1,136 @@
+.busca-input{
+    margin-left: 40px;
+    margin-top: 48px;
+    
+    input{
+        width: 600px;
+    }
+}
+
+.info-menu-table-historico{
+    margin-left: 70px;
+    margin-top: 32px;
+    background-color: #222D33;
+    border-radius: 10px;
+    
+    table{
+        margin-top: 0px;
+    }
+
+    .table-historico-2{
+    
+        color: white;
+        font-size: 16px;
+        
+        td{
+            border-bottom: 1px solid #0F415E;
+            height: 50px ;
+            text-align: center;
+        }
+        td:hover{
+            cursor: pointer;
+        }
+        th{
+            text-align: center;
+            color: #222D33 ;
+            position: sticky;
+            top: 0px;
+            background-color: #fff;
+            height: 36px;    
+        }
+
+        thead{
+            width: 100%;
+            padding-left: 0px;
+            margin-left: 0px;
+    
+        } 
+    
+    }
+
+   
+}
+
+.info-menu-table-historico::-webkit-scrollbar
+        {
+        width:7px;
+        }
+
+        .info-menu-table-historico::-webkit-scrollbar-track
+        {
+            border-radius: 10px;
+            background: #093B56; 
+        }
+
+        .info-menu-table-historico::-webkit-scrollbar-thumb
+        {
+            background-color: #17648E;
+            border-radius: 10px;
+        }
+    
+        .display-busca{
+            display: flex;
+            flex-direction: row;
+        }
+
+
+        .info-individual{
+            width: 340px;
+            border-radius: 10px;
+            padding-bottom: 32px;
+            margin-left: 200px;
+            background-color: #222D33;
+            margin-top: 200px;
+            
+
+            input{
+                background-color: #7A8185;
+                
+            }
+
+            input:hover{
+                cursor: pointer;
+                
+            }
+
+            .info-individual-header{
+                height: 36px;
+                background-color: white;
+                text-align: center;
+                border-top-right-radius:10px ;
+                border-top-left-radius:10px ;
+                padding-top: 8px;
+                
+                
+
+                
+            }
+
+            .info-individual-body{
+                
+               padding-top: 24px;
+                
+            }
+
+            .botao-excluir-cliente{
+                margin-top: 32px;
+                margin-left: 32px;
+
+                button{
+                    background-color:#222d3300;
+                    height: 50px;
+                    border: 1px solid #CE5E5E  ;
+                    border-radius: 10px;
+                    width: 265px;
+                    color: #CE5E5E;
+                }
+                button:hover{
+                    background-color:#CE5E5E;
+                    cursor: pointer;
+                    color: white;
+                }
+
+
+            }
+
+        }

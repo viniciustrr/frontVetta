@@ -1,0 +1,94 @@
+.form-register{
+    display: flex;
+    flex-direction: row;
+    margin-left: 48px;
+    margin-top: 32px;
+
+
+
+    .container-select{
+
+        margin-left: 32px;
+        margin-top: 12px;
+        color: white;
+
+        .select-sign-up{
+            height: 40px;
+            width: 270px;
+            border-radius: 10px ;
+            margin-top: 8px;
+            background-color: #E29E9E;
+            border: none;
+            color: #fff;
+            padding-left:  15px;
+            
+        }
+
+        
+    }
+
+    .telefone-botao{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        
+     
+    }
+
+    .botao{
+        background-color: #E29E9E;
+        height: 40px;
+        width: 40px;
+        border-radius: 5px;
+        font-size: 24px;
+        text-align: center;
+        position: absolute;
+        color:#fff;
+        bottom: 0px;
+        right: -60px;
+        
+    }
+
+    .botao:hover{
+        background-color: #F9AEAE;
+        height: 41px;
+        width: 41px;
+        cursor: pointer;
+    }
+
+    .lista-telefones{
+        width: 238px;
+        border-radius: 10px ;
+        margin-top: 32px;
+        background-color: #B28686;
+        padding: 15px;
+        color: #424242;
+        margin-left: 32px;
+    }
+
+    .botao-enviar{
+
+        margin-top: 32px;
+        margin-left: 32px;
+        
+        button{
+            background-color:#222D33;
+            height: 50px;
+            border: none;
+            border-radius: 10px;
+            width: 265px;
+            color: #fff;
+        }
+        
+        
+
+        button:hover{
+            background-color:#284C60;
+            cursor: pointer;
+        }
+    }
+    
+
+
+
+}

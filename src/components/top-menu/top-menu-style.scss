@@ -1,0 +1,31 @@
+.header-component{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+    position: fixed;
+    padding-left: 60px;
+    padding-top: 20px;
+    
+  
+    .options-controller {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+  
+      .option {
+          padding: 10px 15px;
+  
+          a{
+             color: #E8E8E8;
+             text-decoration: none;
+          }
+          a:hover{
+            color: #fff;
+          }
+        }
+  
+      }
+  }
